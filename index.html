@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Forecast</title> 
+</head>
+<body>
+
+  <div class="overlay">
+    <div class="container">
+        <h1>Weather Forecast App</h1>
+
+        <div class="toggle-wrapper">
+        <input type="checkbox" id="themeToggle" class="theme-toggle">
+         <label for="themeToggle" class="theme-label">
+          <i class="sun fas fa-sun"></i>
+          <i class="moon fas fa-moon"></i>
+        </label>
+      </div> 
+
+      
+      <div class="search-container">
+        <input type="text" id="cityInput" class="searchInput" placeholder="Enter city name">
+        <button id="searchButton">Search</button>
+      </div>
+      
+        <div class="weather-container" id="weatherContainer">
+          <!-- Weather data will be displayed here -->
+        </div>
+      </div>
+    </div>      
+      <script src="script.js"></script>
+  
+</body>
+</html>
