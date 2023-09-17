@@ -1,6 +1,7 @@
 # weather-app
 
-![Weather App Screenshot](weather_app_screenshot.png)
+![Screenshot from 2023-09-17 09-40-46](https://github.com/nyeliep/weather-app/assets/119076184/143952da-786b-4ce3-b25b-532c1fdfa506)
+
 
 ## Overview
 
